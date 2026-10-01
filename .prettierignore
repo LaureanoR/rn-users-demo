@@ -1,0 +1,8 @@
+# Fixture generado: una línea por usuario, no se reformatea.
+src/features/users/users.fixture.json
+package-lock.json
+.expo/
+coverage/
+node_modules/
+README.md
+assets/

@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Users Demo",
+    "slug": "rn-users-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "rnusersdemo",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "com.example.usersdemo"
+    },
+    "android": {
+      "package": "com.example.usersdemo",
+      "adaptiveIcon": {
+        "backgroundColor": "#1F4FCC",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "platforms": ["ios", "android"],
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1F4FCC",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 240
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4d68cf74-e4af-4c82-9e79-9ad7e1d55f3f"
+      }
+    },
+    "owner": "nanoneitor",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d68cf74-e4af-4c82-9e79-9ad7e1d55f3f"
+    }
+  }
+}
